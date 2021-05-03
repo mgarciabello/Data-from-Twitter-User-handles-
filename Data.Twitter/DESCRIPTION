@@ -1,13 +1,13 @@
 Package: Data.Twitter
-Title: What the Package Does (One Line, Title Case)
+Title: Visualizes data from rtweet with the use of a graph from any Twitter User Handle.
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Mariangelica",
            family = "Garcia",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "mgarciabello@usf.edu",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: This package consists of some code that will let the user visualize data using the variables that are included in the code..
 License: `use_mit_license()`, `use_gpl3_license()` or friends to
     pick a license
 Encoding: UTF-8
