@@ -37,3 +37,5 @@ Its first argument creates a function where the user can change the variables to
 ## load Data-from-Twitter-User-handles-
 library(Data-from-Twitter-User-handles-)
 ```
+The user can expect a graph with data from a Twitter User Handle. The information that the user incorporates 
+in the function will be visualized after running the code.
