@@ -19,6 +19,7 @@ To properly use this package the user has to have access to [rtweet]. As a resul
 There is one function currently live for Data-from-Twitter-User-handles-.
 
 Its first argument creates a function where the user can change the variables to any Twitter-User-Handle.
-
+```
 ## load Data-from-Twitter-User-handles-
 library(Data-from-Twitter-User-handles-)
+```
