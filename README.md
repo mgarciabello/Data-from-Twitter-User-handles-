@@ -21,18 +21,3 @@ Its first argument creates a function where the user can change the variables to
 
 ## load Data-from-Twitter-User-handles-
 library(Data-from-Twitter-User-handles-)
-
-## Result is percentage - in this case, 15.05155%.
-```
-
-This process takes some time, as botscan is currently built on a loop of
-BotOMeter. Efforts to mainstream this process are set as future goals. A
-standard pull of tweets via <code>botscan</code> processes approximately
-11 to 12 accounts per minute in addition to the initial tweet streaming.
-
-Twitter rate limits cap the number of Search results returned to 18,000
-every 15 minutes. Thus, excessive use of <code>botscan</code> in a short
-amount of time may result in a warning and inability to pull results. In
-this event, simply wait 15 minutes and try again. In an effort to avoid
-the Twitter rate limit cap, <code>botscan</code> defaults to returning
-1000 results when <code>search = TRUE</code>.
